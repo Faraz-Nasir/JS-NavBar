@@ -114,13 +114,22 @@ nav:hover{
 }
 .nav-toggle{
     font-size: 1rem;
-    color: var(--clr-primary-5);
     transition: var(--transition);
     cursor: pointer;
     display: none;
+    height: 35px;
+    width: 35px;
+    border: transparent;
+    background: transparent;
+    margin-right: 20px;
+}
+.nav-toggle img{
+    height: 35px;
+    width: 35px;
+    border: transparent;
+    background: transparent;
 }
 .nav-toggle:hover{
-    color: var(--clr-primary-1);
     transform: rotate(90deg);
 }  
 @media screen and (max-width:650px)
